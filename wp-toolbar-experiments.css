@@ -61,7 +61,9 @@
  
 #wpadminbar #wp-admin-bar-visit-site > .ab-item:before {
  	content: "\f102";
-	left: 16px;
+	left: 1px;
+	top: 1px;
+	margin-right: 8px;
 }
 
 #wpadminbar #wp-admin-bar-dashboard .ab-icon:before {
