@@ -201,6 +201,10 @@
 		display: block;
 	}
 
+	#wpadminbar li#wp-admin-bar-customize.hide-if-no-customize {
+		display: none;
+	}
+
 	#wpadminbar #wp-admin-bar-edit > .ab-item:before,
 	#wpadminbar #wp-admin-bar-my-sites > .ab-item:before,
 	#wpadminbar #wp-admin-bar-site-name > .ab-item:before,
