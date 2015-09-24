@@ -201,14 +201,9 @@
 		display: block;
 	}
 
-	#wpadminbar li#wp-admin-bar-customize.hide-if-no-customize {
-		display: none;
-	}
-
 	#wpadminbar #wp-admin-bar-edit > .ab-item:before,
 	#wpadminbar #wp-admin-bar-my-sites > .ab-item:before,
 	#wpadminbar #wp-admin-bar-site-name > .ab-item:before,
-	#wpadminbar #wp-admin-bar-customize > .ab-item:before,
 	#wpadminbar #wp-admin-bar-my-account > .ab-item:before {
 		font-size: 20px;
 		line-height: 32px;
@@ -218,7 +213,8 @@
 	    top: 7px;
 	}
 
-	#wpadminbar #wp-admin-bar-comments .ab-icon:before {
+	#wpadminbar #wp-admin-bar-comments .ab-icon:before.ab-icon,
+	#wpadminbar #wp-admin-bar-customize > .ab-item:before {
 		font-size: 20px;
 		height: 40px;
 		line-height: 40px;
